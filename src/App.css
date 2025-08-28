@@ -1,0 +1,29 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.chat {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll; /* Uzun mesajlar için kaydırma çubuğu */
+}
+.message {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+input {
+  width: 80%;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  background-color: #7289da; /* Discord mavisi */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #5a6eb4;
+}
